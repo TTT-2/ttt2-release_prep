@@ -1,0 +1,7 @@
+    AddChange(
+        "TTT2 Base - v{{ version }}",
+        [[
+        {{ html | indent(8) }}
+    ]],
+        os.time({ year = {{ year }}, month = {{ month }}, day = {{ day }} })
+    )
